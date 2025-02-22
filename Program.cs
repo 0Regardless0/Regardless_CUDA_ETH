@@ -65,7 +65,7 @@ namespace EthereumAddressGenerator
 
         static void LoadSortedFiles()
         {
-            string basePath = @"C:\Users\Mjolnir\Downloads\funded_22.01.2025\all\chunks";
+            string basePath = @"C:\chunks";
             for (int i = 0; i < FILES_COUNT; i++)
             {
                 string fileName = Path.Combine(basePath, $"{i:X2}.bin");
